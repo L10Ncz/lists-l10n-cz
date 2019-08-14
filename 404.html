@@ -1,0 +1,42 @@
+---
+---
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <title>E-mailová konference L10N.cz</title>
+    <link rel="icon" href="{{ '/img/favicon.ico' | relative_url }}" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" media="screen" href="{{ '/css/style.css' | relative_url }}">
+  </head>
+  <body>
+
+    <header>
+      <img src="{{ '/img/logo.svg' | relative_url }}" alt="logo Ubuntu">
+      <h1>E-mailová konference L10N.cz</h1>
+
+      Adresa překladatelské konference L10N.cz je <a href="mailto:diskuze-l10n-cz@googlegroups.com">diskuze-l10n-cz@googlegroups.com</a>.<br>
+      Jako archiv slouží webové <a href="https://groups.google.com/d/forum/diskuze-l10n-cz">rozhraní Google Groups</a>. Před odeslání zprávy se prosím do konference přihlaste.
+    </header>
+
+    <main>
+      <details>
+        <summary><h2>Jak se do konference přihlásit</h2></summary>
+        Přihlásit se můžete skrze <a href="https://groups.google.com/d/forum/diskuze-l10n-cz/join">formulář Google Groups</a>
+        nebo posláním zprávy <code>diskuze-l10n-cz [plus] subscribe@googlegroups.com</code>.
+      </details>
+
+      <details>
+        <summary><h2>Co se stalo s původní konferencí</h2></summary>
+        Z důvodu <a href="https://www.l10n.cz/2019/08/13/havarie-serveru-s-wiki-a-emailovou-konferenci/" target="_blank">havárie serveru</a>,
+        na kterém byla konference provozována, jsme o její obsah v srpnu 2019 přišli. E-maily ze staré konference se bohužel nepodařilo obnovit.
+        Zkuste se podívat na server <a id="lists-web-archive" href="https://web.archive.org/">web.archive.org</a>.
+      </details>
+    </main>
+
+    <script>
+      document.getElementById("lists-web-archive").href = 'https://web.archive.org/web/' + window.location.href;
+    </script>
+
+  </body>
+</html>
