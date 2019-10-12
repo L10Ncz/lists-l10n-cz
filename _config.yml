@@ -4,3 +4,4 @@ exclude:
   - Gemfile.lock
   - vendor
   - README.md
+  - archive/diskuze.mbox
